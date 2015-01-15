@@ -193,6 +193,7 @@ namespace Project3
 
         protected void btnMain_Click(object sender, EventArgs e)
         {
+            btnMain.Text="bitches be trifling";
             Response.Redirect("index.aspx");
             
         }
